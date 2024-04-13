@@ -1,0 +1,67 @@
+.for-you-card-bg {
+    width: 300px;
+    height: 150px;
+    padding: 12px;
+    background-color: #e4e4e7;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 5px;
+  }
+  
+  .for-you-card-bg:hover {
+    background-color: #bfc9ce;
+  }
+  
+  .for-you-card-img {
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .for-you-card-name {
+    color: rgb(1, 0, 5);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  
+  .for-you-card-title {
+    color: rgb(1, 0, 5);
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.6;
+    margin: 0px;
+  }
+  
+  .for-you-card-description {
+    color: rgb(1, 0, 5);
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+  
+  .for-you-card-follower {
+    color: rgb(1, 0, 5);
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  .three-dot-btn {
+    color: rgb(1, 0, 5);
+    font-size: 11px;
+    font-weight: normal;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }

@@ -1,0 +1,37 @@
+.try-this-card-bg {
+    width: 300px;
+    height: 100px;
+    padding: 12px;
+    background-color: #e4e4e7;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .try-this-card-bg:hover {
+    background-color: #bfc9ce;
+  }
+  
+  .try-this-card-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  
+  .try-this-card-title {
+    color: rgb(1, 0, 5);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  
+  .try-this-card-subTitle {
+    color: rgb(1, 0, 5);
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px;
+    opacity: 0.5;
+  }

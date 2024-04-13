@@ -1,0 +1,107 @@
+.home-bg {
+  background-color: #f4f4f5;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.home-content {
+  flex-grow: 1;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.welcome-p {
+  color: #7c7c87;
+}
+
+.user-profile-char-p {
+  font-size: 10px;
+  font-weight: 550;
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  background-image: linear-gradient(to bottom, #ef4444, #f8f8f8);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-name-p {
+  color: #060607;
+  font-size: 18px;
+  font-weight: 550;
+  margin: 0px 0px 0px 10px;
+}
+
+.input-container {
+  width: 40%;
+  padding: 10px 16px;
+  background-color: #e4e4e7;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  .input-container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .input-container {
+    width: 50%;
+  }
+}
+
+.search-icon-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  color: #060607;
+  font-size: 14px;
+  padding: 5px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.content-title {
+  color: #000011;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  margin-left: 5px;
+  opacity: 0.8;
+}
+
+/* button slider style goes here */
+.btn-slider-bg {
+  margin-right: 10px;
+}
+
+.item-select-btn {
+  color: #4d4d52;
+  font-size: 14px;
+  font-weight: 450;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e4e4e7;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #000011;
+  color: #ffffff;
+  padding: 9px 15px;
+}

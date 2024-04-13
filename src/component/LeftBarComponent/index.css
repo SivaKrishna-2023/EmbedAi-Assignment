@@ -1,0 +1,270 @@
+.left-bar-bg {
+  width: 20%;
+  padding: 22px 16px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #e4e4e7;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 676px) {
+  .left-bar-bg {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 678px) and (max-width: 1024px) {
+  .left-bar-bg {
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 2;
+  }
+}
+
+.logo-name {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 550;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.left-arrow-btn {
+  color: #a2a2ac;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.left-arrow-btn:hover {
+  background-color: #ececee;
+}
+
+.create-character-btn {
+  align-self: flex-start;
+  color: #585962;
+  font-size: 14px;
+  font-weight: 100;
+  margin: 24px 0px 10px 0px;
+  min-width: 50%;
+  padding: 8px 15px;
+  border-radius: 50px;
+  background-color: #f4f4f5;
+  border: 1px solid #d9d9df;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.create-character-btn:hover {
+  background-color: #d9d9df;
+}
+
+.plus-icon {
+  color: inherit;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.discover-btn {
+  color: #585962;
+  font-size: 14px;
+  font-weight: 100;
+  width: 100%;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #d9d9df;
+  border: 1px solid #d9d9df;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.discover-btn:hover {
+  color: #7c7c87;
+  background-color: #f4f4f5;
+}
+
+.compass-icon {
+  color: #000000;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.chats-p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 450;
+  margin: 24px 0px;
+  opacity: 0.8;
+}
+
+.today-p {
+  color: #7c7c87;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.history-div {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-line {
+  border: 1px solid #e4e4e7;
+  border-radius: 50px;
+  margin: 16px 0px;
+}
+
+.try-btn {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.8;
+  padding: 6px 15px;
+  background-color: #ececee;
+  border: 1px solid #d9d9df;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.try-btn:hover {
+  background-color: #d9d9df;
+}
+
+.golden-plus-icon {
+  color: #fcd603;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.drop-up {
+  width: 100%;
+  padding: 7px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.drop-up:hover {
+  background-color: #c8c8cf;
+}
+
+.user-profile-p {
+  font-size: 18px;
+  font-weight: 550;
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  background-image: linear-gradient(to bottom, #ef4444, #f8f8f8);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-name-p {
+  color: #000000;
+  opacity: 0.8;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0px 0px 0px 10px;
+}
+
+.profile-menu {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ececee;
+}
+
+.menu-list-item {
+  border-radius: 5px;
+  margin: 0px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list-item:hover {
+  background-color: #d9d9df;
+}
+
+.profile-menu-btn {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+.nav-chats-user-1{
+  display: flex;
+  padding-left: 5px;
+}
+.nav-chat-button{
+  background-color: #3275a8;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  color: #ffff;
+  border-color: aqua;
+}
+.nav-chat-content{
+  padding-bottom: 30px;
+  padding-left: 5px;
+}
+
+/* floating container styles */
+
+.floating-div {
+  width: 10%;
+  margin: 16px 5px;
+  background-color: transparent;
+  position: absolute;
+  align-self: flex-start;
+  z-index: 2;
+}
+
+.menu-float-btn {
+  color: #000000;
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-float-btn:hover {
+  background-color: #e4e4e7;
+}
